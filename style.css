@@ -99,3 +99,24 @@
     justify-content: center;
     gap: 15px;
 }
+
+
+/* about section */
+
+.about-d-flex{
+    display: flex;
+    justify-content:space-around;
+    gap:10px;
+}
+.about-img{
+    padding: 60px;
+}
+.about-img >img{
+    max-width: 600px;
+    border-radius: 10px;
+    
+
+}
+.about-content{
+    padding: 60px;
+}
