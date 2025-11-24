@@ -102,21 +102,32 @@
 
 
 /* about section */
-
+.img2{
+    max-width:283px;
+    rotate: -10deg;
+    position: relative;
+    bottom: 60px;
+    right: 30px;
+    float: top;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 .about-d-flex{
     display: flex;
     justify-content:space-around;
-    gap:10px;
+    gap:10px;                                                                                                                      
 }
 .about-img{
     padding: 60px;
 }
 .about-img >img{
-    max-width: 600px;
+   
     border-radius: 10px;
     
 
 }
 .about-content{
     padding: 60px;
+}
+
+.about-avg1{
+    
 }
