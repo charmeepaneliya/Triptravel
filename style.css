@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* navbar */
 .navbar{
     backdrop-filter: blur(10px);
@@ -130,4 +131,35 @@
 
 .about-avg1{
     
+}
+
+/* Destination section */
+
+.card{
+   max-height: 380px;
+   border: none;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card-img{
+   min-height: 380px;
+   object-fit: cover;
+   opacity: 75%;
+    border-radius: 10px;
+   
+}
+
+/* score-img section */
+#score{
+    position: relative;
+}
+.scoer-img{
+    background: url(img/img9.webp),linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.404));
+    background-blend-mode: overlay;
+    object-fit: cover;
+    position: fixed;
+    width: 100%;
+    max-height: 600px;
+    
+
 }
