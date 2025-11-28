@@ -5,9 +5,12 @@
 }
 
 /* navbar */
+
 .navbar{
+    background-color:rgba(20, 71, 116, 0.562)!important;
     backdrop-filter: blur(10px);
     z-index: 10px;
+    
     
 }
 .navbar-brand .logo-img{
@@ -152,14 +155,40 @@
 /* score-img section */
 #score{
     position: relative;
+    padding-top: 80px;
 }
-.scoer-img{
-    background: url(img/img9.webp),linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.404));
+.score-img{
+    background: url(img/img9.webp),linear-gradient(rgba(0, 0, 0, 0.473),rgba(16, 33, 48, 0.637));
     background-blend-mode: overlay;
     object-fit: cover;
-    position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
     width: 100%;
-    max-height: 600px;
+   min-height: 600px;
+   
     
 
+}
+.score-content{
+    text-align: center;
+    padding-top: 170px;
+}
+.svg >.scroe-icon{
+    max-height: 120px; 
+    box-shadow:#F46D2A 0px 2px 4px 0px, #f57738 0px 2px 16px 0px;
+    color:white;
+    border-radius: 50%;
+    border: none;
+}
+.svg >.scroe-icon:hover{
+     box-shadow:white 0px 22px 70px 4px;
+     color: #f57738;
+}
+.col-box{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(218, 217, 217);
+   
 }
