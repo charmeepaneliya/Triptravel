@@ -192,3 +192,16 @@
     border: 1px solid rgb(218, 217, 217);
    
 }
+
+/* package section */
+#package{
+    max-height: auto;
+}
+.hr-package{
+    height: 3px;
+    border-radius: 10px;
+}
+
+.package-row{
+    min-height: 600px;
+}
