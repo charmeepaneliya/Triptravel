@@ -252,6 +252,13 @@
     width: 170px;
     border: none;
 }
+.card-btn-package:hover{
+    color: white !important;
+    background-color: rgb(32, 32, 54) !important;
+    background: linear-gradient(165deg, rgb(32, 32, 54) 30%, rgb(32, 32, 54) 100%) !important;
+}
+
+
 
 
 /* agency */
@@ -339,6 +346,11 @@
     background: linear-gradient(165deg, #F7925F 30%, #F46D2A 100%) !important;
     width: 100px;
     border: none;
+}
+.input-btn:hover{
+     color: white !important;
+    background-color: rgb(32, 32, 54) !important;
+    background: linear-gradient(165deg, rgb(32, 32, 54) 30%, rgb(32, 32, 54) 100%) !important;
 }
 .subscribe-col{
     padding-left: 150px;
