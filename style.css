@@ -45,7 +45,7 @@
 
 .img-hero {
     background: url(img/head-img.webp), linear-gradient(rgba(2, 4, 8, 0.508), rgba(0, 0, 0, 0.229));
-    width: 100%;
+    max-width: 100rem;
     height: 900px;
     background-blend-mode: overlay;
     background-position: center;
@@ -179,7 +179,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    width: 100%;
+    max-width: 100rem;
     min-height: 600px;
 
 
@@ -285,7 +285,7 @@
 
 .plan-img {
     background: url(img/img16.webp), linear-gradient(rgba(8, 8, 8, 0.608), rgba(19, 24, 34, 0.537));
-    width: 100%;
+    max-width:100rem;
     height: 500px;
     background-blend-mode: overlay;
     background-position: center;
@@ -307,7 +307,49 @@
 }
 .brand-div{
    
-    text-align: center;
-    padding: 40px;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 25px;
    
+}
+.card-testimonial{
+    min-height:28rem !important;
+    max-width: 600px;
+    
+}
+.card-test{
+    padding-left: 30px;
+}
+
+
+/* testimonials section */
+
+.test-btn{
+    padding-left: 325px;
+    padding-top: 50px;
+}
+
+/* subscribe section */
+
+.subscribe{
+    margin-top: 100px;
+}
+.input-btn{
+    background: linear-gradient(165deg, #F7925F 30%, #F46D2A 100%) !important;
+    width: 100px;
+    border: none;
+}
+.subscribe-col{
+    padding-left: 150px;
+}
+
+/* footer */
+
+.logo-ftr{
+    max-width: 200px;
+}
+.ftr-list > li{
+    color: white;
+    list-style: none;
 }
