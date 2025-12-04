@@ -9,6 +9,10 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -78,85 +82,26 @@
     </header>
     <main>
         <!-- hero section -->
-         
-        <section id="hero">
+
+        <section id="hero" >
             <div class="container-fluid">
                 <div class="img-hero row">
-                    <div class="row ">
-                         <div class="col-12 hero-title">
-                        <p class="text-white display-3 fw-bold text-center">Explore every beautiful<br>destinations</p>
-                        <p class="text-white fs-5 fw-bold opacity-75 mt-4">Find exclusive travel deals and expert guides to the world’s most
-                            stunning<br>destinations. Adventure awaits!</p>
-                        <button class="hero-btn btn btn-lg mt-4">Booking Now</button>
+                    <div class="row">
+                        <div class="col-12 hero-title ">
+                            <p class="text-white display-3 fw-bold text-center animate__animated animate__fadeInDown" >Explore every
+                                beautiful<br>destinations</p>
+                            <p class="text-white fs-5 fw-bold opacity-75 mt-4 animate__animated animate__fadeInUp">Find exclusive travel deals and expert
+                                guides to the world’s most
+                                stunning<br>destinations. Adventure awaits!</p>
+                            <button class="hero-btn btn btn-lg mt-4 animate__animated animate__fadeInUp">Booking Now</button>
+
+                        </div>
+
+
 
                     </div>
 
-                    <div class="row hero-row-right">
-                        <div class="col-12 col-md-5">
-                            <p class="text-white h4 mb-5">The cool stuff we’ve got :</p>
-                            <div class="row ps-5">
-                                <div class="col-3">
-                                   <div class="col-div border rounded-5  " style="background-color: rgba(240, 248, 255, 0.252);">
-                                         <p class="text-white pt-2">Tour Guide</p>   
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="col-div border rounded-5  " style="background-color: rgba(240, 248, 255, 0.252);">
-                                         <p class="text-white pt-2">Tour Guide</p>   
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="col-div border rounded-5  " style="background-color: rgba(240, 248, 255, 0.252);">
-                                         <p class="text-white pt-2">Tour Guide</p>   
-                                    </div>
-                                </div>
-                                <div class="col-3">
-                                    <div class="col-div border rounded-5  " style="background-color: rgba(240, 248, 255, 0.252);">
-                                         <p class="text-white pt-2">Tour Guide</p>   
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mt-3 ps-5">
-                                <div class="col-3">
-                                    <div class="col-div border rounded-5  " style="background-color: rgba(240, 248, 255, 0.252);">
-                                         <p class="text-white pt-2">Tour Guide</p>   
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="col-div border rounded-5  " style="background-color: rgba(240, 248, 255, 0.252);">
-                                         <p class="text-white pt-2">Tour Guide</p>   
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="col-div border rounded-5  " style="background-color: rgba(240, 248, 255, 0.252);">
-                                         <p class="text-white pt-2">Tour Guide</p>   
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 ">
-                            <div class="row border hero-row2">
-                                <div class="col-md-4 border hero-col2">
-                                    <p class="display-2 fw-bold" style="color: #F46D2A;">50+</p>
-                                    <p class="text-white">Top Destinations</p>
-                                </div>
-                               
-                                <div class="col-md-5 border hero-col2 ">
-                                    <p class="text-white text-center mt-4">Donec aptent habitasse sodales id netus rhoncus tellus. Feugiat imperdiet augue consectetur sollicitudin.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    </div>
-                   
-                    <!-- <div class="hero-content">
-                        <p class="display-3 hero-title">Explore every beautiful<br>destinations</p>
-                        <p class="hero-para">Find exclusive travel deals and expert guides to the world’s most
-                            stunning<br>destinations. Adventure awaits!</p>
-                        <button class="hero-btn btn btn-lg">Booking Now</button>
-                    </div> -->
+
                 </div>
 
                 <!-- <div class="d-flex">
@@ -188,14 +133,14 @@
         <!-- about section -->
 
 
-        <section id="about">
-            <div class="container">
+        <section id="about" >
+            <div class="container" data-aos="fade-up">
                 <div class="row ">
-                    <div class="col-12 col-md-6  about-img">
-                        <img class="img img-fluid img1" src="img/img1.webp" alt="">
-                        <img class="img img-fluid img-thumbnail img2" src="img/img2.webp" alt="">
+                    <div class="col-12 col-md-6  about-img "  >
+                        <img class="img img-fluid img1" src="img/img1.webp" alt="" >
+                        <img class="img img-fluid img-thumbnail img2" src="img/img2.webp" alt="" data-aos="fade-right" >
                     </div>
-                    <div class="col-12 col-md-6  about-content">
+                    <div class="col-12 col-md-6  about-content " data-aos="fade-left">
                         <h5 class="opacity-50">About Triptrave</h5>
                         <div class="w-25 hr-package mb-3" style="background-color: #F46D2A;">
                             <hr class="w-25 " />
@@ -262,7 +207,7 @@
 
         <!-- Destinations section -->
 
-        <section id="Destinations">
+        <section id="Destinations" data-aos="fade-up">
             <div class="container text-center">
                 <p class="display-3 fw-bolder">Discover Your Next Dream Destination</p>
                 <p class="fw-bold">Efficitur facilisis sociosqu duis tempor natoque magna habitant cubilia nulla. Felis
@@ -278,7 +223,7 @@
                             <div class="card text-bg-dark">
                                 <img src="img/img3.webp" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h3 class="card-title">Padar Island</h3>
+                                    <h3 class="card-title" style="padding-top: 270px;">Padar Island</h3>
                                     <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                                     <p class="card-text"><small>Indonesia</small></p>
                                 </div>
@@ -288,7 +233,7 @@
                             <div class="card text-bg-dark">
                                 <img src="img/img4.webp" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h3 class="card-title">Eiffel Tower</h3>
+                                    <h3 class="card-title" style="padding-top: 270px;">Eiffel Tower</h3>
 
                                     <p class="card-text"><small>France</small></p>
                                 </div>
@@ -298,7 +243,7 @@
                             <div class="card text-bg-dark">
                                 <img src="img/img5.webp" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h3 class="card-title">The Great Wall</h3>
+                                    <h3 class="card-title" style="padding-top: 270px;">The Great Wall</h3>
 
                                     <p class="card-text"><small>China</small></p>
                                 </div>
@@ -310,7 +255,7 @@
                             <div class="card text-bg-dark">
                                 <img src="img/img8.webp" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h3 class="card-title">Veligandu Island</h3>
+                                    <h3 class="card-title" style="padding-top: 270px;">Veligandu Island</h3>
 
                                     <p class="card-text"><small>Maldives</small></p>
                                 </div>
@@ -320,7 +265,7 @@
                             <div class="card text-bg-dark">
                                 <img src="img/img6.webp" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h3 class="card-title">Toji Pagoda</h3>
+                                    <h3 class="card-title" style="padding-top: 270px;">Toji Pagoda</h3>
 
                                     <p class="card-text"><small>Japan</small></p>
                                 </div>
@@ -330,7 +275,7 @@
                             <div class="card text-bg-dark">
                                 <img src="img/img7.webp" class="card-img" alt="...">
                                 <div class="card-img-overlay">
-                                    <h3 class="card-title">Marina Bay</h3>
+                                    <h3 class="card-title" style="padding-top: 270px;">Marina Bay</h3>
 
                                     <p class="card-text"><small>Singapore</small></p>
                                 </div>
@@ -353,7 +298,7 @@
                         <p class="text-white">Nostra mattis fringilla quisque nec senectus quam. Bibendum felis mollis
                             aenean euismod <br /> himenaeos tellus sollicitudin.</p>
 
-                        <div class="svg"><svg class="scroe-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        <div class="svg" data-aos="zoom-in"><svg class="scroe-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                                 fill="currentColor">
                                 <path
                                     d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM10.6219 8.41459C10.5562 8.37078 10.479 8.34741 10.4 8.34741C10.1791 8.34741 10 8.52649 10 8.74741V15.2526C10 15.3316 10.0234 15.4088 10.0672 15.4745C10.1897 15.6583 10.4381 15.708 10.6219 15.5854L15.5008 12.3328C15.5447 12.3035 15.5824 12.2658 15.6117 12.2219C15.7343 12.0381 15.6846 11.7897 15.5008 11.6672L10.6219 8.41459Z">
@@ -371,19 +316,19 @@
         <section id="score-box">
             <div class="container-fluid">
                 <div class="row box pb-5">
-                    <div class="col-12 col-md-3 col-box">
+                    <div class="col-12 col-md-3 col-box" data-aos="fade-right"  >
                         <p class="fw-bolder display-3" style="color:#F46D2A ;">27K+</p>
                         <p class="h5">Happy Travelers</p>
                     </div>
-                    <div class="col-12 col-md-3 col-box">
+                    <div class="col-12 col-md-3 col-box" data-aos="fade-right"  >
                         <p class="fw-bolder display-3" style="color: #046e8f;">50+</p>
                         <p class="h5">Top Destinations</p>
                     </div>
-                    <div class="col-12 col-md-3 col-box">
+                    <div class="col-12 col-md-3 col-box" data-aos="fade-left">
                         <p class="fw-bolder display-3" style="color:#F46D2A ;">4.8/5</p>
                         <p class="h5">Customer Reviews</p>
                     </div>
-                    <div class="col-12 col-md-3 col-box">
+                    <div class="col-12 col-md-3 col-box" data-aos="fade-left">
                         <p class="fw-bolder display-3" style="color: #046e8f;">30+</p>
                         <p class="h5">Country Places</p>
                     </div>
@@ -394,13 +339,13 @@
 
         <!-- package section -->
 
-        <section id="package">
+        <section id="package" >
             <div class="container">
                 <div class="row pt-5 mb-4">
-                    <div class="col-12 col-md-6 pt-5 h1">
+                    <div class="col-12 col-md-6 pt-5 h1 " data-aos="fade-right">
                         <p>Explore Our Most Popular Travel Packages</p>
                     </div>
-                    <div class="col-12 col-md-6 pt-5 h5">
+                    <div class="col-12 col-md-6 pt-5 h5 " data-aos="fade-left">
                         <p>Dictum viverra enim quam consectetur posuere ex montes duis purus sociosqu. Blandit pulvinar
                             mollis a aptent egestas convallis.</p>
                         <div class="w-25 hr-package" style="background-color: #F46D2A;">
@@ -410,8 +355,8 @@
                     </div>
                 </div>
 
-                <div class="row  package-row ">
-                    <div class="col-12 col-md-6 col-lg-4 gap-5  ">
+                <div class="row  package-row " data-aos="fade-up">
+                    <div class="col-12 col-md-6 col-lg-4 gap-5 ">
                         <div class="card card-packege w-100" style="width: 18rem;">
                             <img src="img/img10.webp" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -652,12 +597,12 @@
 
         <section id="agency">
             <div class="container mt-5">
-                <p class="display-4 fw-bold">Why Should You Travel With Us</p>
-                <p class="fs-6">Lorem nascetur nisi curae ut ullamcorper duis facilisi cubilia. Vulputate consectetur
+                <p class="display-4 fw-bold" data-aos="zoom-in">Why Should You Travel With Us</p>
+                <p class="fs-6" data-aos="zoom-in">Lorem nascetur nisi curae ut ullamcorper duis facilisi cubilia. Vulputate consectetur
                     <br /> iaculis etiam class dolor ac mollis.
                 </p>
 
-                <div class="row mt-5  ">
+                <div class="row mt-5  " data-aos="flip-up">
                     <div class="col-12 col-md-6 col-lg-4 p-2">
                         <div class="border rounded-3 p-5" style="background-color: #f8f8f8;">
                             <div class="icon mx-auto" style="background-color:#183446;"><i class="ri-suitcase-fill"
@@ -695,48 +640,48 @@
         <!-- plan section -->
 
         <section id="plan">
-            <div class="container-fluid mt-5 mb-3">
+            <div class="container-fluid mt-5 mb-3" data-aos="fade-up">
                 <div class="plan-img row ">
                     <div class=" plan-content">
-                        <p class="display-5 fw-bold text-white pt-5">We are professional planners for <br> your
+                        <p class="display-5 fw-bold text-white pt-5" data-aos="zoom-in">We are professional planners for <br> your
                             vacations</p>
-                        <p class="fs-6 text-white">Pretium condimentum habitant platea consequat tristique. Mi class nec
+                        <p class="fs-6 text-white" data-aos="zoom-in">Pretium condimentum habitant platea consequat tristique. Mi class nec
                             parturient primis <br> lectus proin risus posuere rutrum tempor.</p>
-                        <button class="btn card-btn-package p-2 text-white fs-6 fw-bold">Booking Now</button>
+                        <button class="btn card-btn-package p-2 text-white fs-6 fw-bold" data-aos="zoom-in">Booking Now</button>
                     </div>
 
                 </div>
 
                 <div class="row border " style="background-color: #f8f8f8;">
-                    <div class="col-12 col-md-2 mx-auto   brand-div">
+                    <div class="col-12 col-md-2 mx-auto   brand-div" >
 
-                        <img class="img img-fluid" src="img/Brand-1.jpg" alt="">
-
-                    </div>
-                    <div class="col-12 col-md-2  brand-div">
-
-                        <img class="img img-fluid" src="img/Brand-5.jpg" alt="">
+                        <img class="img img-fluid" src="img/Brand-1.jpg" alt="" data-aos="fade-right">
 
                     </div>
                     <div class="col-12 col-md-2  brand-div">
 
-                        <img class="img img-fluid" src="img/Brand-3.jpg" alt="">
+                        <img class="img img-fluid" src="img/Brand-5.jpg" alt="" data-aos="fade-right">
+
+                    </div>
+                    <div class="col-12 col-md-2  brand-div">
+
+                        <img class="img img-fluid" src="img/Brand-3.jpg" alt="" data-aos="fade-right">
 
                     </div>
                     <div class="col-12 col-md-2   brand-div">
 
-                        <img class="img img-fluid" src="img/Brand-4.jpg" alt="">
+                        <img class="img img-fluid" src="img/Brand-4.jpg" alt="" data-aos="fade-left">
 
                     </div>
 
                     <div class="col-12 col-md-2   brand-div">
 
-                        <img class="img img-fluid" src="img/Brand-2.jpg" alt="">
+                        <img class="img img-fluid" src="img/Brand-2.jpg" alt="" data-aos="fade-left">
 
                     </div>
                     <div class="col-12 col-md-2  brand-div">
 
-                        <img class="img img-fluid " src="img/Brand-1.jpg" alt="">
+                        <img class="img img-fluid " src="img/Brand-1.jpg" alt="" data-aos="fade-left">
 
                     </div>
 
@@ -749,26 +694,27 @@
 
         <section id="testimonials">
             <div class="container mt-5">
-                <p class="fs-6 fw-bold">Testimonials</p>
-                <div class="w-25 hr-package  " style="background-color: #F46D2A;">
+                <p class="fs-6 fw-bold" data-aos="zoom-in">Testimonials</p>
+                <div class="w-25 hr-package  " style="background-color: #F46D2A;" data-aos="zoom-in">
                     <hr class="w-25" />
                 </div>
-                <div class="row mx-auto">
+                <div class="row mx-auto" >
                     <div class="col-12 col-md-7">
-                        <p class="display-5 fw-bold mt-3">Real Stories From Happy Adventurers</p>
+                        <p class="display-5 fw-bold mt-3"  data-aos="fade-right">Real Stories From Happy Adventurers</p>
                     </div>
-                    <div class="col-12 col-md-5 test-btn">
+                    <div class="col-12 col-md-5 test-btn" data-aos="fade-left">
                         <button class="btn card-btn-package p-2 text-white fs-6 fw-bold mt-5">View More</button>
                     </div>
 
-                    <div class="row mt-5  ">
+                    <div class="row mt-5  " data-aos="flip-up">
                         <div class="col-12 col-md-6 col-lg-3 p-2 card-test">
                             <div class="card card-testimonial" style="width: 18rem;">
                                 <img src="img/Testimonial1.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">William Hall</h5>
-                                    <p class="card-text">Triptrave made my dream vacation come true! Everything was perfectly planned. Highly recommended!</p>
-                                    
+                                    <p class="card-text">Triptrave made my dream vacation come true! Everything was
+                                        perfectly planned. Highly recommended!</p>
+
                                 </div>
                             </div>
                         </div>
@@ -777,8 +723,9 @@
                                 <img src="img/Testimonial2.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Rossa Gutman</h5>
-                                    <p class="card-text">Amazing experience with Triptrave! Smooth booking, great guides, and unforgettable adventures!</p>
-                                    
+                                    <p class="card-text">Amazing experience with Triptrave! Smooth booking, great
+                                        guides, and unforgettable adventures!</p>
+
                                 </div>
                             </div>
                         </div>
@@ -787,8 +734,9 @@
                                 <img src="img/Testimonial3.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Randy Bird</h5>
-                                    <p class="card-text">From flights to hotels, everything was seamless. Triptrave, you’re the best! See you on my next adventure!</p>
-                                   
+                                    <p class="card-text">From flights to hotels, everything was seamless. Triptrave,
+                                        you’re the best! See you on my next adventure!</p>
+
                                 </div>
                             </div>
                         </div>
@@ -797,10 +745,11 @@
                                 <img src="img/Testimonial4.webp" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Maggie Ulrey</h5>
-                                    <p class="card-text">Best travel agency ever! Affordable packages and hassle-free trips. Thank you, Triptrave!
+                                    <p class="card-text">Best travel agency ever! Affordable packages and hassle-free
+                                        trips. Thank you, Triptrave!
 
-</p>
-                                    
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -813,32 +762,32 @@
         <!-- subscribe section -->
 
         <section id="subscribe">
-            <div class="container subscribe">
-                 <div class="row border rounded-5 p-5" style="background-color: #046e8f; color: #f8f8f8;">
-                <div class="col-12 col-md-6">
-                    <p class="display-6 fw-bold">Crafting Unforgettable Moments, One Trip at a Time</p>
-                    <div class="w-25 hr-package  " style="background-color: #F46D2A;">
-                    <hr class="w-25" />
-                </div>
-                </div>
-                <div class="col-12 col-md-6 subscribe-col">
-                    <p class="fs-4 fw-bold">Subscribe our Newsletter</p>
-                    <div class="row">
-                        <div class="col-12 col-md-7 ">
-                            <form action="">
-                                <input class="p-2 w-100 rounded-3" type="text" placeholder="Enter Your Email">
-                                 
-                            </form>
-                            
+            <div class="container subscribe" data-aos="zoom-in-down">
+                <div class="row border rounded-5 p-5" style="background-color: #046e8f; color: #f8f8f8;">
+                    <div class="col-12 col-md-6">
+                        <p class="display-6 fw-bold">Crafting Unforgettable Moments, One Trip at a Time</p>
+                        <div class="w-25 hr-package  " style="background-color: #F46D2A;">
+                            <hr class="w-25" />
                         </div>
-                        <div class="col-12 col-md-4 ">
-                            <button class="btn input-btn p-2 text-white fs-6 fw-bold">Sign Up</button>
+                    </div>
+                    <div class="col-12 col-md-6 subscribe-col">
+                        <p class="fs-4 fw-bold">Subscribe our Newsletter</p>
+                        <div class="row">
+                            <div class="col-12 col-md-7 ">
+                                <form action="">
+                                    <input class="p-2 w-100 rounded-3" type="text" placeholder="Enter Your Email">
+
+                                </form>
+
+                            </div>
+                            <div class="col-12 col-md-4 ">
+                                <button class="btn input-btn p-2 text-white fs-6 fw-bold">Sign Up</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-           
+
 
         </section>
 
@@ -846,15 +795,18 @@
 
         <footer>
             <div class="container-fluid mt-5" style="background-color: #011218;">
-                <div class="row p-5">
-                    <div class="col">
-                         <img class="logo-ftr img-fluid pb-4" src="img/Logo_Triptrave_2.png" alt="">
+                <div class="row p-5 mx-5">
+                    <div class="col-12 col-md-4" >
+                        <img class="logo-ftr img-fluid pb-4" src="img/Logo_Triptrave_2.png" alt="">
 
-                         <p class="text-white">Potenti molestie vitae viverra sodales at. Aenean faucibus gravida laoreet consequat mollis arcu diam pulvinar pellentesque.</p>
-                         <p class="text-white"><i class="ri-mail-fill" style="color: #F46D2A;"></i> hello@triptrave.com</p>
-                         <p class="text-white"><i class="ri-phone-fill" style="color: #F46D2A;"></i> +1 (234) 567-8910</p>
+                        <p class="text-white opacity-75">Potenti molestie vitae viverra sodales at. Aenean faucibus
+                            gravida laoreet consequat mollis arcu diam pulvinar pellentesque.</p>
+                        <p class="text-white opacity-75"><i class="ri-mail-fill" style="color: #F46D2A;"></i>
+                            hello@triptrave.com</p>
+                        <p class="text-white opacity-75"><i class="ri-phone-fill" style="color: #F46D2A;"></i> +1 (234)
+                            567-8910</p>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-2" >
                         <p class="text-white fs-5 fw-bold">Quick Links</p>
                         <ul class="ftr-list">
                             <li>About Us</li>
@@ -865,7 +817,7 @@
                             <li>Contact Us</li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-3">
                         <p class="text-white fs-5 fw-bold">Travel Services</p>
                         <ul class="ftr-list">
                             <li>Tour Packages</li>
@@ -876,30 +828,51 @@
                             <li>Online Booking</li>
                         </ul>
                     </div>
-                    <div class="col">
-                        <p class="text-white fs-5 fw-bold">Recent Post</p>
+                    <div class="col-12 col-md-3">
+                        <p class="text-white fs-5 fw-bold opacity-75">Recent Post</p>
 
-                        <p class="" style="color: #F46D2A;"><i class="ri-calendar-2-line" style="color: #F46D2A;"></i> 22 Mar 2025</p>
+                        <p class="" style="color: #F46D2A;"><i class="ri-calendar-2-line" style="color: #F46D2A;"></i>
+                            22 Mar 2025</p>
 
-                        <p class="text-white">The Future of Travel: Must-Know Trends for the Next Decade</p>
+                        <p class="text-white opacity-75">The Future of Travel: Must-Know Trends for the Next Decade</p>
 
-                        <hr class="text-secondary"/>
+                        <hr class="text-secondary" />
 
-                        <p class="" style="color: #F46D2A;"><i class="ri-calendar-2-line" style="color: #F46D2A;"></i> 22 Mar 2025</p>
+                        <p class="" style="color: #F46D2A;"><i class="ri-calendar-2-line" style="color: #F46D2A;"></i>
+                            22 Mar 2025</p>
 
-                        <p class="text-white">Underrated Destinations You Must Visit Before They Get Too Popular</p>
+                        <p class="text-white opacity-75">Underrated Destinations You Must Visit Before They Get Too
+                            Popular</p>
 
                     </div>
                 </div>
 
-                <hr class="text-secondary"/>
+                <hr class="text-secondary mx-auto" />
 
                 <div class="row">
-                    <div class="col">
-                        <p class="text-white p-3 fs-6">Copyright © 2025 Triptrave by TBWBThemes. All rights reserved.</p>
+                    <div class="col-12 col-md-6" >
+                        <p class="text-white p-3 fs-6 text-center opacity-75" >Copyright © 2025 Triptrave by TBWBThemes.
+                            All rights reserved.</p>
                     </div>
-                    <div class="col">
-
+                    <div class="col-12 col-md-2"></div>
+                    <div class="col-12 col-md-4 ">
+                        <div class="row icon-row-ftr">
+                            <div class="col-md-1 icon-col-ftr">
+                                <i class="ri-facebook-circle-fill icon-ftr"></i>
+                            </div>
+                            <div class="col-md-1">
+                                <i class="ri-twitter-x-line icon-ftr"></i>
+                            </div>
+                            <div class="col-md-1">
+                                <i class="ri-instagram-line icon-ftr"></i>
+                            </div>
+                            <div class="col-md-1">
+                                <i class="ri-youtube-fill icon-ftr"></i>
+                            </div>
+                            <div class="col-md-1">
+                                <i class="ri-whatsapp-line icon-ftr"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -910,5 +883,15 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+        {
+             duration: 2000,
+            once: true,
+        }
+    );
+  </script>
 
 </html>

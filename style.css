@@ -46,7 +46,7 @@
 .img-hero {
     background: url(img/head-img.webp), linear-gradient(rgba(2, 4, 8, 0.508), rgba(0, 0, 0, 0.229));
     max-width: 100rem;
-    height: 900px;
+    height: 850px;
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,6 +153,7 @@
     min-height: 380px;
     object-fit: cover;
     opacity: 75%;
+    
     border-radius: 10px;
 
 }
@@ -220,9 +221,9 @@
 }
 
 .card:hover {
-    transform: scale(1.1);
-    transition: all 1.2s;
-    z-index: 10px;
+   transition: all 1.2s;
+  transform: scale(1.1);
+  z-index:10;
 }
 
 .card-img-top {
@@ -354,6 +355,22 @@
     max-width: 200px;
 }
 .ftr-list > li{
-    color: white;
+    color: rgba(255, 255, 255, 0.738);
     list-style: none;
+}
+
+.icon-div-ftr{
+    border-radius: 50%;
+    background-color: gray;
+    font-size: 30px;
+    max-width: 3rem !important;
+}
+.icon-ftr{
+  
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.742);
+
+}
+.icon-ftr:hover{
+    color:#F46D2A;
 }
